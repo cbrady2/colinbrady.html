@@ -4,3 +4,13 @@
   margin:           10px;
   height:           108px;
 }
+body { 
+  background-color: #b5a789;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0px;
+}
+h1 {
+	  font-size:        10%;
+  color:            #954b4b;
+}
