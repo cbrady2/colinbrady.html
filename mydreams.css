@@ -1,0 +1,45 @@
+nav li {
+  display: inline;
+}
+
+nav {
+  background-color: #080808;
+  margin: 10px 10px 0 10px;
+}
+
+nav a {
+  padding: 5px 10px;
+}
+
+nav a:link, nav a:visited {
+  color: #D8D8D8;
+  font-weight: bold;
+  border-bottom: none;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 5px 0;
+}
+
+#selected-nav-item {
+  background-color: #080808;
+}
+body {
+  background-color: #F0F0F0
+  font: "Adobe Caslon Pro", Georgia, "Times New Roman", serif;
+  margin: 10px 10px 10px 10px;
+}
+h1 {
+  font-size: 1.75em;
+  border: solid #594846;
+  border-width: 2px 0;
+  padding: 0.25em;
+  text-align: center;
+  font-variant: small-caps;
+}
+h2 {
+  text-align: center;
+  font-variant: small-caps;
+}
