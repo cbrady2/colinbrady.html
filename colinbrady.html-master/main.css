@@ -1,0 +1,51 @@
+body { 
+
+  background-color: #dddddd;
+  font-family:      Candara, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0px;
+}
+
+#header {
+  background-color: #aaaaaa;
+  margin:           10px;
+  height:           108px;
+  font-color: 
+
+}
+
+#main {
+
+  background:       #aaaaaa url(images/background.gif) top left;
+  font-size:        105%;
+  padding:          15px;
+  margin:           px 10px 10px 10px;
+}
+
+
+#footer {
+  padding:          15px;
+  margin:           10px;
+  font-size:        90%;
+}
+
+h1 {
+  font-size:        120%;
+  color:            #954b4b;
+}
+
+a:link {
+  color:            #b76666;
+  text-decoration:  none;
+  border-bottom:    thin dotted #b76666;
+}
+
+a:visited {
+
+  color:            #675c47;
+
+  text-decoration:  none;
+
+  border-bottom:    thin dotted #675c47;
+
+}
