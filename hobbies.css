@@ -1,3 +1,16 @@
+/*#colin_image{
+  background-image: url(IMAGES/basketball-header.jpg);
+  opacity: 0.5;
+  z-index: -1;
+  display: block;
+  position: relative;
+}*/
+
+header {
+  position: fixed;
+  width: 100%; 
+  opacity: 1;
+}
 
 nav li {
   display: inline;
@@ -5,7 +18,9 @@ nav li {
 
 nav {
   background-color: #080808;
-  margin: 10px 10px 0 10px;
+  margin: 0px;
+  padding: 25px;
+  text-align: center;
 }
 
 nav a {
@@ -21,18 +36,21 @@ nav a:link, nav a:visited {
 nav ul {
   list-style-type: none;
   margin: 0px;
-  padding: 5px 0;
+  padding: 50px 0px;
+  font-size: 150%;
 }
 
-#selected-nav-item {
+/*#selected-nav-item {
   background-color: #080808;
 
-}
+}*/
 body {
   background-color: #F0F0F0
   font: "Adobe Caslon Pro", Georgia, "Times New Roman", serif;
-  margin: 10px 10px 10px 10px;
+  margin: 0px;
+  overflow-x: hidden;
 }
+
 h1 {
   font-size: 1.75em;
   border: solid #594846;
@@ -46,6 +64,6 @@ h2 {
   font-variant: small-caps;
 }
 
-.topHeader {
-  background-image: url(images/brady.jpg)
-}
+/*.topHeader {
+  background-image: url(IMAGES/basketball-header.jpg) 
+*/
